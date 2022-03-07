@@ -1,7 +1,13 @@
+/* Header within nav-bar */
+#nav_Header {
+    text-align: center;
+    font-size: xx-large;
+}
+
 /* Vertical side nav-bar */
 nav {
     border-style: dashed;
-    font-size: xx-large;
+    font-size: x-large;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -41,5 +47,21 @@ pre code {
 
 /* Styling main page */
 header {
-    font-size: x-large;
+    font-size: large;
+}
+
+
+/* Media query */
+@media screen and (max-width: 570px) {
+    nav  {
+        font-size: small;
+    }
+    
+    #nav_Header {
+        font-size: small;
+    }
+
+    #main-doc {
+        font-size: x-small;
+    }
 }
